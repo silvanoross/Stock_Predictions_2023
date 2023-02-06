@@ -17,8 +17,9 @@ Python 3.9
 
 # Overview
 
-Reading the close price for Google as far back as the Alpaca API allow yields closing prices as shown below:
+Reading the close price for Google as far back as the Alpaca API allows yields data plotted below:
 
+### Plot of GOOG Closing Prices as far back as 2015-07
 <img src='./images/blips.png' width=700>
 
 As you can see there is a point in 2017 where the data has an inconsistency and the date where Google split its stock in a 20-1 split. This stock split has not been standardized in the Alpaca database and it needs to be adjusted as to reflect an accurate price fluctuation over time. I decided to take an approach where I would run a prediction with only the last year's worth of closing prices, right after the split occurred.
@@ -59,6 +60,6 @@ This Yahoo Finance [article](https://www.yahoo.com/now/morgan-stanley-chief-stra
 
 Advice from the article says to hold off on investing in American equities as of now. 
 
-Advice from 
+Conclusion based on analysis - stock price for GOOG is predicted to decline in the next six months
 
 
